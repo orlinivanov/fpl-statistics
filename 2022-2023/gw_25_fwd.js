@@ -1,0 +1,222 @@
+[
+  {
+    id: 11,
+    name: 'Nketiah',
+    total_points: 52,
+    position: 'FWD',
+    startsLast5: '5.00',
+    xGLast5: '3.56',
+    xALast5: '0.40',
+    xGiLast5: '3.97',
+    xGcLast5: '6.58'
+  },
+  {
+    id: 80,
+    name: 'Toney',
+    total_points: 122,
+    position: 'FWD',
+    startsLast5: '5.00',
+    xGLast5: '2.88',
+    xALast5: '0.83',
+    xGiLast5: '3.71',
+    xGcLast5: '4.37'
+  },
+  {
+    id: 145,
+    name: 'Havertz',
+    total_points: 68,
+    position: 'FWD',
+    startsLast5: '4.00',
+    xGLast5: '2.13',
+    xALast5: '0.87',
+    xGiLast5: '3.00',
+    xGcLast5: '4.10'
+  },
+  {
+    id: 318,
+    name: 'Haaland',
+    total_points: 183,
+    position: 'FWD',
+    startsLast5: '5.00',
+    xGLast5: '2.63',
+    xALast5: '0.14',
+    xGiLast5: '2.76',
+    xGcLast5: '4.35'
+  },
+  {
+    id: 356,
+    name: 'Wilson',
+    total_points: 71,
+    position: 'FWD',
+    startsLast5: '3.00',
+    xGLast5: '1.79',
+    xALast5: '0.88',
+    xGiLast5: '2.69',
+    xGcLast5: '3.10'
+  },
+  {
+    id: 210,
+    name: 'Mitrović',
+    total_points: 87,
+    position: 'FWD',
+    startsLast5: '4.00',
+    xGLast5: '2.14',
+    xALast5: '0.22',
+    xGiLast5: '2.36',
+    xGcLast5: '5.08'
+  },
+  {
+    id: 427,
+    name: 'Kane',
+    total_points: 155,
+    position: 'FWD',
+    startsLast5: '5.00',
+    xGLast5: '2.05',
+    xALast5: '0.19',
+    xGiLast5: '2.22',
+    xGcLast5: '6.62'
+  },
+  {
+    id: 123,
+    name: 'Undav',
+    total_points: 12,
+    position: 'FWD',
+    startsLast5: '2.00',
+    xGLast5: '1.57',
+    xALast5: '0.61',
+    xGiLast5: '2.19',
+    xGcLast5: '0.93'
+  },
+  {
+    id: 262,
+    name: 'Iheanacho',
+    total_points: 51,
+    position: 'FWD',
+    startsLast5: '3.00',
+    xGLast5: '1.47',
+    xALast5: '0.57',
+    xGiLast5: '2.05',
+    xGcLast5: '6.94'
+  },
+  {
+    id: 297,
+    name: 'Darwin',
+    total_points: 65,
+    position: 'FWD',
+    startsLast5: '3.00',
+    xGLast5: '1.70',
+    xALast5: '0.23',
+    xGiLast5: '1.91',
+    xGcLast5: '4.13'
+  },
+  {
+    id: 701,
+    name: 'Weghorst',
+    total_points: 13,
+    position: 'FWD',
+    startsLast5: '5.00',
+    xGLast5: '1.07',
+    xALast5: '0.83',
+    xGiLast5: '1.91',
+    xGcLast5: '7.29'
+  },
+  {
+    id: 394,
+    name: 'Johnson',
+    total_points: 76,
+    position: 'FWD',
+    startsLast5: '5.00',
+    xGLast5: '1.56',
+    xALast5: '0.28',
+    xGiLast5: '1.84',
+    xGcLast5: '7.33'
+  },
+  {
+    id: 103,
+    name: 'Welbeck',
+    total_points: 45,
+    position: 'FWD',
+    startsLast5: '2.00',
+    xGLast5: '1.73',
+    xALast5: '0.10',
+    xGiLast5: '1.82',
+    xGcLast5: '1.68'
+  },
+  {
+    id: 95,
+    name: 'Mbeumo',
+    total_points: 82,
+    position: 'FWD',
+    startsLast5: '5.00',
+    xGLast5: '0.82',
+    xALast5: '0.93',
+    xGiLast5: '1.75',
+    xGcLast5: '4.20'
+  },
+  {
+    id: 191,
+    name: 'Calvert-Lewin',
+    total_points: 25,
+    position: 'FWD',
+    startsLast5: '3.00',
+    xGLast5: '1.43',
+    xALast5: '0.04',
+    xGiLast5: '1.48',
+    xGcLast5: '4.16'
+  },
+  {
+    id: 594,
+    name: 'Isak',
+    total_points: 31,
+    position: 'FWD',
+    startsLast5: '2.00',
+    xGLast5: '1.37',
+    xALast5: '0.07',
+    xGiLast5: '1.44',
+    xGcLast5: '3.64'
+  },
+  {
+    id: 40,
+    name: 'Watkins',
+    total_points: 94,
+    position: 'FWD',
+    startsLast5: '5.00',
+    xGLast5: '1.30',
+    xALast5: '0.09',
+    xGiLast5: '1.38',
+    xGcLast5: '8.52'
+  },
+  {
+    id: 391,
+    name: 'Surridge',
+    total_points: 20,
+    position: 'FWD',
+    startsLast5: '0.00',
+    xGLast5: '1.32',
+    xALast5: '0.00',
+    xGiLast5: '1.33',
+    xGcLast5: '0.22'
+  },
+  {
+    id: 66,
+    name: 'Solanke',
+    total_points: 69,
+    position: 'FWD',
+    startsLast5: '2.00',
+    xGLast5: '0.94',
+    xALast5: '0.33',
+    xGiLast5: '1.28',
+    xGcLast5: '2.43'
+  },
+  {
+    id: 690,
+    name: 'João Félix',
+    total_points: 9,
+    position: 'FWD',
+    startsLast5: '2.00',
+    xGLast5: '0.93',
+    xALast5: '0.34',
+    xGiLast5: '1.28',
+    xGcLast5: '2.12'
+  }
+] 

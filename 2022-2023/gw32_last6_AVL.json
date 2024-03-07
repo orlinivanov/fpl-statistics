@@ -1,0 +1,323 @@
+{
+  "title": "Stats for last 6",
+  "top_fwd_xgi": [
+    {
+      "id": 40,
+      "name": "Watkins",
+      "total_points": 155,
+      "position": "FWD",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "4.03",
+      "xA": "0.43",
+      "xGi": "4.46",
+      "xGc": "6.17"
+    },
+    {
+      "id": 711,
+      "name": "Durán",
+      "total_points": 7,
+      "position": "FWD",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.45",
+      "xA": "0.00",
+      "xGi": "0.45",
+      "xGc": "0.25"
+    },
+    {
+      "id": 54,
+      "name": "Archer",
+      "total_points": 6,
+      "position": "FWD",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    }
+  ],
+  "top_mid_xgi": [
+    {
+      "id": 47,
+      "name": "Ramsey",
+      "total_points": 101,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "1.29",
+      "xA": "1.13",
+      "xGi": "2.42",
+      "xGc": "6.17"
+    },
+    {
+      "id": 42,
+      "name": "Buendía",
+      "total_points": 100,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "1.19",
+      "xA": "0.72",
+      "xGi": "1.91",
+      "xGc": "5.77"
+    },
+    {
+      "id": 45,
+      "name": "Bailey",
+      "total_points": 90,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "4.00",
+      "xG": "0.36",
+      "xA": "1.20",
+      "xGi": "1.56",
+      "xGc": "2.99"
+    },
+    {
+      "id": 46,
+      "name": "Douglas Luiz",
+      "total_points": 102,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.92",
+      "xA": "0.48",
+      "xGi": "1.40",
+      "xGc": "6.12"
+    },
+    {
+      "id": 37,
+      "name": "McGinn",
+      "total_points": 74,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.28",
+      "xA": "0.53",
+      "xGi": "0.81",
+      "xGc": "6.17"
+    },
+    {
+      "id": 34,
+      "name": "Traoré",
+      "total_points": 17,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.66",
+      "xA": "0.07",
+      "xGi": "0.73",
+      "xGc": "0.71"
+    },
+    {
+      "id": 479,
+      "name": "Dendoncker",
+      "total_points": 29,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "1.00",
+      "xG": "0.03",
+      "xA": "0.00",
+      "xGi": "0.03",
+      "xGc": "0.59"
+    },
+    {
+      "id": 29,
+      "name": "Coutinho",
+      "total_points": 32,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 36,
+      "name": "Sanson",
+      "total_points": 2,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 53,
+      "name": "Kamara",
+      "total_points": 38,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "1.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "1.51"
+    }
+  ],
+  "top_def_xgc": [
+    {
+      "id": 538,
+      "name": "Young",
+      "total_points": 76,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "4.00",
+      "xG": "0.09",
+      "xA": "0.16",
+      "xGi": "0.25",
+      "xGc": "3.61"
+    },
+    {
+      "id": 694,
+      "name": "Álex Moreno",
+      "total_points": 56,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.17",
+      "xA": "1.59",
+      "xGi": "1.76",
+      "xGc": "5.81"
+    },
+    {
+      "id": 39,
+      "name": "Mings",
+      "total_points": 106,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.27",
+      "xA": "0.06",
+      "xGi": "0.33",
+      "xGc": "6.17"
+    },
+    {
+      "id": 44,
+      "name": "Konsa",
+      "total_points": 91,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.21",
+      "xA": "0.25",
+      "xGi": "0.46",
+      "xGc": "6.17"
+    }
+  ],
+  "top_def_xgi": [
+    {
+      "id": 694,
+      "name": "Álex Moreno",
+      "total_points": 56,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.17",
+      "xA": "1.59",
+      "xGi": "1.76",
+      "xGc": "5.81"
+    },
+    {
+      "id": 44,
+      "name": "Konsa",
+      "total_points": 91,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.21",
+      "xA": "0.25",
+      "xGi": "0.46",
+      "xGc": "6.17"
+    },
+    {
+      "id": 39,
+      "name": "Mings",
+      "total_points": 106,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.27",
+      "xA": "0.06",
+      "xGi": "0.33",
+      "xGc": "6.17"
+    },
+    {
+      "id": 538,
+      "name": "Young",
+      "total_points": 76,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "4.00",
+      "xG": "0.09",
+      "xA": "0.16",
+      "xGi": "0.25",
+      "xGc": "3.61"
+    },
+    {
+      "id": 43,
+      "name": "Cash",
+      "total_points": 53,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "2.00",
+      "xG": "0.00",
+      "xA": "0.01",
+      "xGi": "0.01",
+      "xGc": "2.56"
+    },
+    {
+      "id": 32,
+      "name": "Chambers",
+      "total_points": 10,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.58"
+    },
+    {
+      "id": 33,
+      "name": "Digne",
+      "total_points": 44,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.37"
+    },
+    {
+      "id": 50,
+      "name": "Diego Carlos",
+      "total_points": 3,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 525,
+      "name": "Augustinsson",
+      "total_points": 2,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "title": "Stats for last 6",
+  "top_fwd_xgi": [
+    {
+      "id": 60,
+      "name": "Watkins",
+      "total_points": 70,
+      "position": "FWD",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "2.73",
+      "xA": "0.63",
+      "xGi": "3.36",
+      "xGc": "8.73"
+    },
+    {
+      "id": 44,
+      "name": "Duran",
+      "total_points": 15,
+      "position": "FWD",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.18",
+      "xA": "0.01",
+      "xGi": "0.19",
+      "xGc": "0.76"
+    }
+  ],
+  "top_mid_xgi": [
+    {
+      "id": 43,
+      "name": "Douglas Luiz",
+      "total_points": 49,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "2.21",
+      "xA": "0.58",
+      "xGi": "2.79",
+      "xGc": "8.92"
+    },
+    {
+      "id": 599,
+      "name": "Diaby",
+      "total_points": 44,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.84",
+      "xA": "1.12",
+      "xGi": "1.96",
+      "xGc": "7.95"
+    },
+    {
+      "id": 34,
+      "name": "Bailey",
+      "total_points": 29,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "1.08",
+      "xA": "0.37",
+      "xGi": "1.45",
+      "xGc": "3.78"
+    },
+    {
+      "id": 50,
+      "name": "McGinn",
+      "total_points": 31,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.34",
+      "xA": "0.73",
+      "xGi": "1.07",
+      "xGc": "8.33"
+    },
+    {
+      "id": 672,
+      "name": "Zaniolo",
+      "total_points": 9,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "4.00",
+      "xG": "0.44",
+      "xA": "0.34",
+      "xGi": "0.78",
+      "xGc": "4.56"
+    },
+    {
+      "id": 55,
+      "name": "J.Ramsey",
+      "total_points": 7,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.19",
+      "xA": "0.04",
+      "xGi": "0.23",
+      "xGc": "0.73"
+    },
+    {
+      "id": 47,
+      "name": "Kamara",
+      "total_points": 18,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.00",
+      "xA": "0.17",
+      "xGi": "0.17",
+      "xGc": "7.91"
+    },
+    {
+      "id": 58,
+      "name": "Tielemans",
+      "total_points": 12,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.08",
+      "xA": "0.07",
+      "xGi": "0.15",
+      "xGc": "1.28"
+    },
+    {
+      "id": 38,
+      "name": "Coutinho",
+      "total_points": 2,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 40,
+      "name": "Dendoncker",
+      "total_points": 2,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.19"
+    },
+    {
+      "id": 54,
+      "name": "Philogene",
+      "total_points": 1,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 59,
+      "name": "Bertrand Traoré",
+      "total_points": 1,
+      "position": "MID",
+      "team": "AVL",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    }
+  ],
+  "top_def_xgc": [
+    {
+      "id": 41,
+      "name": "Diego Carlos",
+      "total_points": 6,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "2.00",
+      "xG": "0.00",
+      "xA": "0.01",
+      "xGi": "0.01",
+      "xGc": "1.25"
+    },
+    {
+      "id": 36,
+      "name": "Cash",
+      "total_points": 38,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "1.03",
+      "xA": "0.55",
+      "xGi": "1.58",
+      "xGc": "8.90"
+    },
+    {
+      "id": 42,
+      "name": "Digne",
+      "total_points": 30,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.12",
+      "xA": "0.72",
+      "xGi": "0.84",
+      "xGc": "9.04"
+    },
+    {
+      "id": 48,
+      "name": "Konsa",
+      "total_points": 27,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.58",
+      "xA": "0.04",
+      "xGi": "0.62",
+      "xGc": "9.04"
+    },
+    {
+      "id": 584,
+      "name": "Pau",
+      "total_points": 33,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.35",
+      "xA": "0.08",
+      "xGi": "0.43",
+      "xGc": "9.04"
+    }
+  ],
+  "top_def_xgi": [
+    {
+      "id": 36,
+      "name": "Cash",
+      "total_points": 38,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "1.03",
+      "xA": "0.55",
+      "xGi": "1.58",
+      "xGc": "8.90"
+    },
+    {
+      "id": 42,
+      "name": "Digne",
+      "total_points": 30,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.12",
+      "xA": "0.72",
+      "xGi": "0.84",
+      "xGc": "9.04"
+    },
+    {
+      "id": 48,
+      "name": "Konsa",
+      "total_points": 27,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.58",
+      "xA": "0.04",
+      "xGi": "0.62",
+      "xGc": "9.04"
+    },
+    {
+      "id": 584,
+      "name": "Pau",
+      "total_points": 33,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "6.00",
+      "xG": "0.35",
+      "xA": "0.08",
+      "xGi": "0.43",
+      "xGc": "9.04"
+    },
+    {
+      "id": 41,
+      "name": "Diego Carlos",
+      "total_points": 6,
+      "position": "DEF",
+      "team": "AVL",
+      "starts": "2.00",
+      "xG": "0.00",
+      "xA": "0.01",
+      "xGi": "0.01",
+      "xGc": "1.25"
+    }
+  ]
+}

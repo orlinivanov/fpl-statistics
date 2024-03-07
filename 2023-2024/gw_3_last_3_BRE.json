@@ -1,0 +1,263 @@
+{
+  "title": "Stats for last 6",
+  "top_fwd_xgi": [
+    {
+      "id": 119,
+      "name": "Wissa",
+      "total_points": 20,
+      "position": "FWD",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "1.67",
+      "xA": "0.07",
+      "xGi": "1.74",
+      "xGc": "1.38"
+    }
+  ],
+  "top_mid_xgi": [
+    {
+      "id": 108,
+      "name": "Mbeumo",
+      "total_points": 23,
+      "position": "MID",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "3.14",
+      "xA": "0.27",
+      "xGi": "3.41",
+      "xGc": "1.72"
+    },
+    {
+      "id": 106,
+      "name": "Jensen",
+      "total_points": 7,
+      "position": "MID",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.07",
+      "xA": "0.71",
+      "xGi": "0.78",
+      "xGc": "1.15"
+    },
+    {
+      "id": 115,
+      "name": "Schade",
+      "total_points": 4,
+      "position": "MID",
+      "team": "BRE",
+      "starts": "1.00",
+      "xG": "0.27",
+      "xA": "0.05",
+      "xGi": "0.32",
+      "xGc": "0.60"
+    },
+    {
+      "id": 107,
+      "name": "Lewis-Potter",
+      "total_points": 1,
+      "position": "MID",
+      "team": "BRE",
+      "starts": "0.00",
+      "xG": "0.22",
+      "xA": "0.01",
+      "xGi": "0.23",
+      "xGc": "0.09"
+    },
+    {
+      "id": 105,
+      "name": "Janelt",
+      "total_points": 5,
+      "position": "MID",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.02",
+      "xA": "0.16",
+      "xGi": "0.18",
+      "xGc": "1.72"
+    },
+    {
+      "id": 98,
+      "name": "Damsgaard",
+      "total_points": 2,
+      "position": "MID",
+      "team": "BRE",
+      "starts": "0.00",
+      "xG": "0.07",
+      "xA": "0.01",
+      "xGi": "0.08",
+      "xGc": "0.66"
+    },
+    {
+      "id": 110,
+      "name": "Nørgaard",
+      "total_points": 5,
+      "position": "MID",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.02",
+      "xA": "0.03",
+      "xGi": "0.05",
+      "xGc": "1.38"
+    },
+    {
+      "id": 92,
+      "name": "Baptiste",
+      "total_points": 1,
+      "position": "MID",
+      "team": "BRE",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.01",
+      "xGi": "0.01",
+      "xGc": "0.24"
+    },
+    {
+      "id": 99,
+      "name": "Dasilva",
+      "total_points": 1,
+      "position": "MID",
+      "team": "BRE",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.07"
+    }
+  ],
+  "top_def_xgc": [
+    {
+      "id": 104,
+      "name": "Hickey",
+      "total_points": 5,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.03",
+      "xA": "0.09",
+      "xGi": "0.12",
+      "xGc": "1.38"
+    },
+    {
+      "id": 96,
+      "name": "Collins",
+      "total_points": 7,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.08",
+      "xA": "0.21",
+      "xGi": "0.29",
+      "xGc": "1.72"
+    },
+    {
+      "id": 103,
+      "name": "Henry",
+      "total_points": 9,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.00",
+      "xA": "0.83",
+      "xGi": "0.83",
+      "xGc": "1.72"
+    },
+    {
+      "id": 112,
+      "name": "Pinnock",
+      "total_points": 8,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.04",
+      "xA": "0.22",
+      "xGi": "0.26",
+      "xGc": "1.72"
+    }
+  ],
+  "top_def_xgi": [
+    {
+      "id": 103,
+      "name": "Henry",
+      "total_points": 9,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.00",
+      "xA": "0.83",
+      "xGi": "0.83",
+      "xGc": "1.72"
+    },
+    {
+      "id": 90,
+      "name": "Ajer",
+      "total_points": 5,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "1.00",
+      "xG": "0.15",
+      "xA": "0.56",
+      "xGi": "0.71",
+      "xGc": "1.16"
+    },
+    {
+      "id": 96,
+      "name": "Collins",
+      "total_points": 7,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.08",
+      "xA": "0.21",
+      "xGi": "0.29",
+      "xGc": "1.72"
+    },
+    {
+      "id": 112,
+      "name": "Pinnock",
+      "total_points": 8,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.04",
+      "xA": "0.22",
+      "xGi": "0.26",
+      "xGc": "1.72"
+    },
+    {
+      "id": 104,
+      "name": "Hickey",
+      "total_points": 5,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "2.00",
+      "xG": "0.03",
+      "xA": "0.09",
+      "xGi": "0.12",
+      "xGc": "1.38"
+    },
+    {
+      "id": 121,
+      "name": "Zanka",
+      "total_points": 1,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.11",
+      "xGi": "0.11",
+      "xGc": "0.12"
+    },
+    {
+      "id": 114,
+      "name": "Roerslev",
+      "total_points": 2,
+      "position": "DEF",
+      "team": "BRE",
+      "starts": "0.00",
+      "xG": "0.03",
+      "xA": "0.00",
+      "xGi": "0.03",
+      "xGc": "0.33"
+    }
+  ]
+}

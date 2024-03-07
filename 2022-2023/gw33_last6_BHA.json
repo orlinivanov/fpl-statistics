@@ -1,0 +1,323 @@
+{
+  "title": "Stats for last 6",
+  "top_fwd_xgi": [
+    {
+      "id": 103,
+      "name": "Welbeck",
+      "total_points": 67,
+      "position": "FWD",
+      "team": "BHA",
+      "starts": "3.00",
+      "xG": "2.15",
+      "xA": "0.24",
+      "xGi": "2.39",
+      "xGc": "3.92"
+    },
+    {
+      "id": 596,
+      "name": "Ferguson",
+      "total_points": 45,
+      "position": "FWD",
+      "team": "BHA",
+      "starts": "3.00",
+      "xG": "1.56",
+      "xA": "0.09",
+      "xGi": "1.65",
+      "xGc": "3.67"
+    },
+    {
+      "id": 125,
+      "name": "Enciso",
+      "total_points": 27,
+      "position": "FWD",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "1.26",
+      "xA": "0.26",
+      "xGi": "1.52",
+      "xGc": "0.64"
+    },
+    {
+      "id": 123,
+      "name": "Undav",
+      "total_points": 17,
+      "position": "FWD",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "0.31",
+      "xA": "0.00",
+      "xGi": "0.31",
+      "xGc": "0.00"
+    }
+  ],
+  "top_mid_xgi": [
+    {
+      "id": 116,
+      "name": "Mac Allister",
+      "total_points": 107,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "2.46",
+      "xA": "1.08",
+      "xGi": "3.54",
+      "xGc": "7.47"
+    },
+    {
+      "id": 107,
+      "name": "March",
+      "total_points": 139,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "1.30",
+      "xA": "1.66",
+      "xGi": "2.96",
+      "xGc": "7.54"
+    },
+    {
+      "id": 104,
+      "name": "Groß",
+      "total_points": 121,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "0.98",
+      "xA": "1.79",
+      "xGi": "2.77",
+      "xGc": "7.59"
+    },
+    {
+      "id": 124,
+      "name": "Mitoma",
+      "total_points": 114,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "1.22",
+      "xA": "1.36",
+      "xGi": "2.58",
+      "xGc": "7.52"
+    },
+    {
+      "id": 120,
+      "name": "Caicedo",
+      "total_points": 63,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "0.28",
+      "xA": "0.67",
+      "xGi": "0.95",
+      "xGc": "7.52"
+    },
+    {
+      "id": 719,
+      "name": "Ayari",
+      "total_points": 1,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "0.02",
+      "xA": "0.30",
+      "xGi": "0.32",
+      "xGc": "0.06"
+    },
+    {
+      "id": 119,
+      "name": "Sarmiento",
+      "total_points": 16,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.01",
+      "xGi": "0.01",
+      "xGc": "0.05"
+    },
+    {
+      "id": 101,
+      "name": "Lallana",
+      "total_points": 47,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 118,
+      "name": "Mwepu",
+      "total_points": 11,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 149,
+      "name": "Gilmour",
+      "total_points": 7,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 651,
+      "name": "Moran",
+      "total_points": 1,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 679,
+      "name": "Buonanotte",
+      "total_points": 7,
+      "position": "MID",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    }
+  ],
+  "top_def_xgc": [
+    {
+      "id": 109,
+      "name": "Veltman",
+      "total_points": 89,
+      "position": "DEF",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "0.32",
+      "xA": "0.08",
+      "xGi": "0.40",
+      "xGc": "7.08"
+    },
+    {
+      "id": 106,
+      "name": "Dunk",
+      "total_points": 93,
+      "position": "DEF",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "0.60",
+      "xA": "0.20",
+      "xGi": "0.80",
+      "xGc": "7.59"
+    },
+    {
+      "id": 586,
+      "name": "Estupiñán",
+      "total_points": 89,
+      "position": "DEF",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "0.48",
+      "xA": "0.65",
+      "xGi": "1.13",
+      "xGc": "7.59"
+    }
+  ],
+  "top_def_xgi": [
+    {
+      "id": 586,
+      "name": "Estupiñán",
+      "total_points": 89,
+      "position": "DEF",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "0.48",
+      "xA": "0.65",
+      "xGi": "1.13",
+      "xGc": "7.59"
+    },
+    {
+      "id": 106,
+      "name": "Dunk",
+      "total_points": 93,
+      "position": "DEF",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "0.60",
+      "xA": "0.20",
+      "xGi": "0.80",
+      "xGc": "7.59"
+    },
+    {
+      "id": 109,
+      "name": "Veltman",
+      "total_points": 89,
+      "position": "DEF",
+      "team": "BHA",
+      "starts": "6.00",
+      "xG": "0.32",
+      "xA": "0.08",
+      "xGi": "0.40",
+      "xGc": "7.08"
+    },
+    {
+      "id": 559,
+      "name": "Colwill",
+      "total_points": 25,
+      "position": "DEF",
+      "team": "BHA",
+      "starts": "3.00",
+      "xG": "0.18",
+      "xA": "0.05",
+      "xGi": "0.23",
+      "xGc": "3.39"
+    },
+    {
+      "id": 108,
+      "name": "Webster",
+      "total_points": 63,
+      "position": "DEF",
+      "team": "BHA",
+      "starts": "3.00",
+      "xG": "0.02",
+      "xA": "0.04",
+      "xGi": "0.06",
+      "xGc": "4.23"
+    },
+    {
+      "id": 114,
+      "name": "Lamptey",
+      "total_points": 23,
+      "position": "DEF",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 544,
+      "name": "Van Hecke",
+      "total_points": 4,
+      "position": "DEF",
+      "team": "BHA",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.02"
+    }
+  ]
+}

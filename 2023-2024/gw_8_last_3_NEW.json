@@ -1,0 +1,287 @@
+{
+  "title": "Stats for last 3",
+  "top_fwd_xgi": [
+    {
+      "id": 415,
+      "name": "Isak",
+      "total_points": 30,
+      "position": "FWD",
+      "team": "NEW",
+      "starts": "1.00",
+      "xG": "2.44",
+      "xA": "0.05",
+      "xGi": "2.49",
+      "xGc": "0.86"
+    },
+    {
+      "id": 433,
+      "name": "Wilson",
+      "total_points": 24,
+      "position": "FWD",
+      "team": "NEW",
+      "starts": "2.00",
+      "xG": "2.15",
+      "xA": "0.09",
+      "xGi": "2.24",
+      "xGc": "1.27"
+    }
+  ],
+  "top_mid_xgi": [
+    {
+      "id": 412,
+      "name": "Gordon",
+      "total_points": 37,
+      "position": "MID",
+      "team": "NEW",
+      "starts": "2.00",
+      "xG": "0.66",
+      "xA": "0.58",
+      "xGi": "1.24",
+      "xGc": "2.03"
+    },
+    {
+      "id": 406,
+      "name": "Bruno G.",
+      "total_points": 24,
+      "position": "MID",
+      "team": "NEW",
+      "starts": "3.00",
+      "xG": "0.57",
+      "xA": "0.58",
+      "xGi": "1.15",
+      "xGc": "2.03"
+    },
+    {
+      "id": 421,
+      "name": "Longstaff",
+      "total_points": 24,
+      "position": "MID",
+      "team": "NEW",
+      "starts": "3.00",
+      "xG": "0.46",
+      "xA": "0.59",
+      "xGi": "1.05",
+      "xGc": "2.13"
+    },
+    {
+      "id": 403,
+      "name": "Anderson",
+      "total_points": 16,
+      "position": "MID",
+      "team": "NEW",
+      "starts": "3.00",
+      "xG": "0.61",
+      "xA": "0.16",
+      "xGi": "0.77",
+      "xGc": "1.83"
+    },
+    {
+      "id": 402,
+      "name": "Almirón",
+      "total_points": 26,
+      "position": "MID",
+      "team": "NEW",
+      "starts": "2.00",
+      "xG": "0.44",
+      "xA": "0.09",
+      "xGi": "0.53",
+      "xGc": "1.61"
+    },
+    {
+      "id": 429,
+      "name": "Tonali",
+      "total_points": 13,
+      "position": "MID",
+      "team": "NEW",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.23",
+      "xGi": "0.23",
+      "xGc": "0.51"
+    },
+    {
+      "id": 603,
+      "name": "Barnes",
+      "total_points": 17,
+      "position": "MID",
+      "team": "NEW",
+      "starts": "2.00",
+      "xG": "0.06",
+      "xA": "0.02",
+      "xGi": "0.08",
+      "xGc": "0.41"
+    },
+    {
+      "id": 416,
+      "name": "Joelinton",
+      "total_points": 6,
+      "position": "MID",
+      "team": "NEW",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 423,
+      "name": "J.Murphy",
+      "total_points": 5,
+      "position": "MID",
+      "team": "NEW",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    }
+  ],
+  "top_def_xgc": [
+    {
+      "id": 405,
+      "name": "Botman",
+      "total_points": 30,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "2.00",
+      "xG": "0.13",
+      "xA": "0.02",
+      "xGi": "0.15",
+      "xGc": "1.48"
+    },
+    {
+      "id": 430,
+      "name": "Trippier",
+      "total_points": 43,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "3.00",
+      "xG": "0.05",
+      "xA": "1.50",
+      "xGi": "1.55",
+      "xGc": "1.92"
+    },
+    {
+      "id": 407,
+      "name": "Burn",
+      "total_points": 29,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "3.00",
+      "xG": "0.53",
+      "xA": "0.07",
+      "xGi": "0.60",
+      "xGc": "2.13"
+    },
+    {
+      "id": 427,
+      "name": "Schär",
+      "total_points": 25,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "3.00",
+      "xG": "0.37",
+      "xA": "0.02",
+      "xGi": "0.39",
+      "xGc": "2.13"
+    }
+  ],
+  "top_def_xgi": [
+    {
+      "id": 430,
+      "name": "Trippier",
+      "total_points": 43,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "3.00",
+      "xG": "0.05",
+      "xA": "1.50",
+      "xGi": "1.55",
+      "xGc": "1.92"
+    },
+    {
+      "id": 407,
+      "name": "Burn",
+      "total_points": 29,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "3.00",
+      "xG": "0.53",
+      "xA": "0.07",
+      "xGi": "0.60",
+      "xGc": "2.13"
+    },
+    {
+      "id": 427,
+      "name": "Schär",
+      "total_points": 25,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "3.00",
+      "xG": "0.37",
+      "xA": "0.02",
+      "xGi": "0.39",
+      "xGc": "2.13"
+    },
+    {
+      "id": 405,
+      "name": "Botman",
+      "total_points": 30,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "2.00",
+      "xG": "0.13",
+      "xA": "0.02",
+      "xGi": "0.15",
+      "xGc": "1.48"
+    },
+    {
+      "id": 419,
+      "name": "Lascelles",
+      "total_points": 7,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "1.00",
+      "xG": "0.08",
+      "xA": "0.02",
+      "xGi": "0.10",
+      "xGc": "0.65"
+    },
+    {
+      "id": 633,
+      "name": "Livramento",
+      "total_points": 3,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.01",
+      "xGi": "0.01",
+      "xGc": "0.21"
+    },
+    {
+      "id": 204,
+      "name": "Hall",
+      "total_points": 1,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.09"
+    },
+    {
+      "id": 428,
+      "name": "Targett",
+      "total_points": 1,
+      "position": "DEF",
+      "team": "NEW",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "title": "Stats for last 3",
+  "top_fwd_xgi": [
+    {
+      "id": 293,
+      "name": "Darwin",
+      "total_points": 55,
+      "position": "FWD",
+      "team": "LIV",
+      "starts": "3.00",
+      "xG": "1.54",
+      "xA": "0.15",
+      "xGi": "1.69",
+      "xGc": "3.45"
+    },
+    {
+      "id": 297,
+      "name": "Gakpo",
+      "total_points": 25,
+      "position": "FWD",
+      "team": "LIV",
+      "starts": "1.00",
+      "xG": "0.65",
+      "xA": "0.07",
+      "xGi": "0.72",
+      "xGc": "2.59"
+    }
+  ],
+  "top_mid_xgi": [
+    {
+      "id": 308,
+      "name": "Salah",
+      "total_points": 106,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "3.00",
+      "xG": "1.53",
+      "xA": "0.51",
+      "xGi": "2.04",
+      "xGc": "3.73"
+    },
+    {
+      "id": 295,
+      "name": "Elliott",
+      "total_points": 16,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "0.00",
+      "xG": "0.04",
+      "xA": "0.79",
+      "xGi": "0.83",
+      "xGc": "0.81"
+    },
+    {
+      "id": 309,
+      "name": "Szoboszlai",
+      "total_points": 52,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "3.00",
+      "xG": "0.12",
+      "xA": "0.51",
+      "xGi": "0.63",
+      "xGc": "2.64"
+    },
+    {
+      "id": 294,
+      "name": "Diogo J.",
+      "total_points": 44,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "3.00",
+      "xG": "0.37",
+      "xA": "0.10",
+      "xGi": "0.47",
+      "xGc": "2.43"
+    },
+    {
+      "id": 708,
+      "name": "Gravenberch",
+      "total_points": 11,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "1.00",
+      "xG": "0.02",
+      "xA": "0.25",
+      "xGi": "0.27",
+      "xGc": "1.58"
+    },
+    {
+      "id": 303,
+      "name": "Luis Díaz",
+      "total_points": 40,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "0.00",
+      "xG": "0.15",
+      "xA": "0.03",
+      "xGi": "0.18",
+      "xGc": "0.88"
+    },
+    {
+      "id": 304,
+      "name": "Mac Allister",
+      "total_points": 21,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "2.00",
+      "xG": "0.02",
+      "xA": "0.10",
+      "xGi": "0.12",
+      "xGc": "1.88"
+    },
+    {
+      "id": 668,
+      "name": "Endo",
+      "total_points": 9,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "1.00",
+      "xG": "0.00",
+      "xA": "0.03",
+      "xGi": "0.03",
+      "xGc": "1.86"
+    },
+    {
+      "id": 300,
+      "name": "Jones",
+      "total_points": 6,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "1.00",
+      "xG": "0.00",
+      "xA": "0.01",
+      "xGi": "0.01",
+      "xGc": "0.56"
+    },
+    {
+      "id": 628,
+      "name": "Doak",
+      "total_points": 1,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 629,
+      "name": "McConnell",
+      "total_points": 1,
+      "position": "MID",
+      "team": "LIV",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.01"
+    }
+  ],
+  "top_def_xgc": [
+    {
+      "id": 305,
+      "name": "Matip",
+      "total_points": 20,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "2.00",
+      "xG": "0.03",
+      "xA": "0.01",
+      "xGi": "0.04",
+      "xGc": "2.92"
+    },
+    {
+      "id": 311,
+      "name": "Tsimikas",
+      "total_points": 31,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "2.00",
+      "xG": "0.02",
+      "xA": "0.47",
+      "xGi": "0.49",
+      "xGc": "3.37"
+    },
+    {
+      "id": 290,
+      "name": "Alexander-Arnold",
+      "total_points": 46,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "3.00",
+      "xG": "0.08",
+      "xA": "0.97",
+      "xGi": "1.05",
+      "xGc": "3.72"
+    },
+    {
+      "id": 313,
+      "name": "Virgil",
+      "total_points": 38,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "3.00",
+      "xG": "0.20",
+      "xA": "0.04",
+      "xGi": "0.24",
+      "xGc": "3.73"
+    }
+  ],
+  "top_def_xgi": [
+    {
+      "id": 290,
+      "name": "Alexander-Arnold",
+      "total_points": 46,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "3.00",
+      "xG": "0.08",
+      "xA": "0.97",
+      "xGi": "1.05",
+      "xGc": "3.72"
+    },
+    {
+      "id": 311,
+      "name": "Tsimikas",
+      "total_points": 31,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "2.00",
+      "xG": "0.02",
+      "xA": "0.47",
+      "xGi": "0.49",
+      "xGc": "3.37"
+    },
+    {
+      "id": 298,
+      "name": "Gomez",
+      "total_points": 23,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "1.00",
+      "xG": "0.36",
+      "xA": "0.01",
+      "xGi": "0.37",
+      "xGc": "0.37"
+    },
+    {
+      "id": 313,
+      "name": "Virgil",
+      "total_points": 38,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "3.00",
+      "xG": "0.20",
+      "xA": "0.04",
+      "xGi": "0.24",
+      "xGc": "3.73"
+    },
+    {
+      "id": 302,
+      "name": "Konaté",
+      "total_points": 20,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "1.00",
+      "xG": "0.02",
+      "xA": "0.04",
+      "xGi": "0.06",
+      "xGc": "0.81"
+    },
+    {
+      "id": 305,
+      "name": "Matip",
+      "total_points": 20,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "2.00",
+      "xG": "0.03",
+      "xA": "0.01",
+      "xGi": "0.04",
+      "xGc": "2.92"
+    },
+    {
+      "id": 307,
+      "name": "Robertson",
+      "total_points": 26,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 626,
+      "name": "Quansah",
+      "total_points": 5,
+      "position": "DEF",
+      "team": "LIV",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.01"
+    }
+  ]
+}

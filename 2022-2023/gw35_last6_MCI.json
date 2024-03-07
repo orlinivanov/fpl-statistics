@@ -1,0 +1,311 @@
+{
+  "title": "Stats for last 6",
+  "top_fwd_xgi": [
+    {
+      "id": 318,
+      "name": "Haaland",
+      "total_points": 257,
+      "position": "FWD",
+      "team": "MCI",
+      "starts": "5.00",
+      "xG": "5.53",
+      "xA": "0.31",
+      "xGi": "5.84",
+      "xGc": "1.44"
+    },
+    {
+      "id": 319,
+      "name": "Álvarez",
+      "total_points": 88,
+      "position": "FWD",
+      "team": "MCI",
+      "starts": "3.00",
+      "xG": "2.40",
+      "xA": "0.16",
+      "xGi": "2.56",
+      "xGc": "2.91"
+    }
+  ],
+  "top_mid_xgi": [
+    {
+      "id": 305,
+      "name": "Grealish",
+      "total_points": 120,
+      "position": "MID",
+      "team": "MCI",
+      "starts": "6.00",
+      "xG": "1.42",
+      "xA": "2.21",
+      "xGi": "3.63",
+      "xGc": "2.29"
+    },
+    {
+      "id": 301,
+      "name": "De Bruyne",
+      "total_points": 178,
+      "position": "MID",
+      "team": "MCI",
+      "starts": "4.00",
+      "xG": "1.43",
+      "xA": "1.44",
+      "xGi": "2.87",
+      "xGc": "1.31"
+    },
+    {
+      "id": 303,
+      "name": "Mahrez",
+      "total_points": 103,
+      "position": "MID",
+      "team": "MCI",
+      "starts": "5.00",
+      "xG": "0.61",
+      "xA": "1.27",
+      "xGi": "1.88",
+      "xGc": "3.41"
+    },
+    {
+      "id": 300,
+      "name": "Gündogan",
+      "total_points": 98,
+      "position": "MID",
+      "team": "MCI",
+      "starts": "4.00",
+      "xG": "1.05",
+      "xA": "0.42",
+      "xGi": "1.47",
+      "xGc": "1.21"
+    },
+    {
+      "id": 315,
+      "name": "Rodri",
+      "total_points": 101,
+      "position": "MID",
+      "team": "MCI",
+      "starts": "6.00",
+      "xG": "0.66",
+      "xA": "0.25",
+      "xGi": "0.91",
+      "xGc": "1.91"
+    },
+    {
+      "id": 311,
+      "name": "Bernardo",
+      "total_points": 103,
+      "position": "MID",
+      "team": "MCI",
+      "starts": "3.00",
+      "xG": "0.43",
+      "xA": "0.44",
+      "xGi": "0.87",
+      "xGc": "3.20"
+    },
+    {
+      "id": 314,
+      "name": "Foden",
+      "total_points": 120,
+      "position": "MID",
+      "team": "MCI",
+      "starts": "0.00",
+      "xG": "0.17",
+      "xA": "0.01",
+      "xGi": "0.18",
+      "xGc": "0.14"
+    },
+    {
+      "id": 325,
+      "name": "Phillips",
+      "total_points": 7,
+      "position": "MID",
+      "team": "MCI",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.02",
+      "xGi": "0.02",
+      "xGc": "1.99"
+    },
+    {
+      "id": 316,
+      "name": "Palmer",
+      "total_points": 10,
+      "position": "MID",
+      "team": "MCI",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.01",
+      "xGi": "0.01",
+      "xGc": "1.99"
+    },
+    {
+      "id": 712,
+      "name": "Perrone",
+      "total_points": 1,
+      "position": "MID",
+      "team": "MCI",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    }
+  ],
+  "top_def_xgc": [
+    {
+      "id": 302,
+      "name": "Stones",
+      "total_points": 90,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "6.00",
+      "xG": "0.44",
+      "xA": "0.11",
+      "xGi": "0.55",
+      "xGc": "1.77"
+    },
+    {
+      "id": 299,
+      "name": "Walker",
+      "total_points": 52,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "4.00",
+      "xG": "0.00",
+      "xA": "0.12",
+      "xGi": "0.12",
+      "xGc": "3.37"
+    },
+    {
+      "id": 610,
+      "name": "Akanji",
+      "total_points": 73,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "4.00",
+      "xG": "0.00",
+      "xA": "0.57",
+      "xGi": "0.57",
+      "xGc": "3.46"
+    },
+    {
+      "id": 312,
+      "name": "Dias",
+      "total_points": 74,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "6.00",
+      "xG": "0.00",
+      "xA": "0.10",
+      "xGi": "0.10",
+      "xGc": "3.91"
+    }
+  ],
+  "top_def_xgi": [
+    {
+      "id": 308,
+      "name": "Aké",
+      "total_points": 83,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "3.00",
+      "xG": "0.55",
+      "xA": "0.11",
+      "xGi": "0.66",
+      "xGc": "0.89"
+    },
+    {
+      "id": 610,
+      "name": "Akanji",
+      "total_points": 73,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "4.00",
+      "xG": "0.00",
+      "xA": "0.57",
+      "xGi": "0.57",
+      "xGc": "3.46"
+    },
+    {
+      "id": 302,
+      "name": "Stones",
+      "total_points": 90,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "6.00",
+      "xG": "0.44",
+      "xA": "0.11",
+      "xGi": "0.55",
+      "xGc": "1.77"
+    },
+    {
+      "id": 299,
+      "name": "Walker",
+      "total_points": 52,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "4.00",
+      "xG": "0.00",
+      "xA": "0.12",
+      "xGi": "0.12",
+      "xGc": "3.37"
+    },
+    {
+      "id": 312,
+      "name": "Dias",
+      "total_points": 74,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "6.00",
+      "xG": "0.00",
+      "xA": "0.10",
+      "xGi": "0.10",
+      "xGc": "3.91"
+    },
+    {
+      "id": 309,
+      "name": "Laporte",
+      "total_points": 23,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "1.00",
+      "xG": "0.00",
+      "xA": "0.04",
+      "xGi": "0.04",
+      "xGc": "2.22"
+    },
+    {
+      "id": 306,
+      "name": "Cancelo",
+      "total_points": 73,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 573,
+      "name": "Lewis",
+      "total_points": 17,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "0.00"
+    },
+    {
+      "id": 587,
+      "name": "Sergio Gómez",
+      "total_points": 10,
+      "position": "DEF",
+      "team": "MCI",
+      "starts": "0.00",
+      "xG": "0.00",
+      "xA": "0.00",
+      "xGi": "0.00",
+      "xGc": "1.62"
+    }
+  ]
+}
