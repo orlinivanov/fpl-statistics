@@ -87,12 +87,12 @@ for (const i in playersWithMinutes) {
   if (!cachedValue) {
     console.log(`Fetching data for player ${key}`);
     const playerData = await fplService.getPlayerData(id);
-    const clientSetPlyaerResponse = await cacheClient.set(
+    const clientSetPlayerResponse = await cacheClient.set(
       key,
       JSON.stringify(playerData)
     );
     console.log(
-      `Cached data for player ${key} with response ${clientSetPlyaerResponse}`
+      `Cached data for player ${key} with response ${clientSetPlayerResponse}`
     );
   }
 }
