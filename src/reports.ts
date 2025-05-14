@@ -22,7 +22,7 @@ const activePlayersCacheValue = await getActivePlayersMap();
 const activePlayersMap: ActivePlayersMap = { ...activePlayersCacheValue };
 
 for (const key of Object.keys(activePlayersMap)) {
-  const { history } = await getPlayerHistory(key);
+  const { history = [] } = await getPlayerHistory(key);
   // activePlayersMap[key].history = [...cachedValue.history];
   const lastX = history
     .reverse()
