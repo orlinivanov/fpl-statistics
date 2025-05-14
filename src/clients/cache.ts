@@ -17,7 +17,7 @@ export const getEvents = async () => {
 
 export const getTeams = async () => {
   const teamsResponse = await cacheClient.get('teams');
-  const teams = teamsSchema.parse(JSON.parse(teamsResponse) || {});
+  const teams = teamsSchema.parse(JSON.parse(teamsResponse) || []);
 
   return teams;
 };
