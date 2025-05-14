@@ -28,7 +28,7 @@ docker run \
 node src/load.ts
 ```
 
-#### Calclulate and Store reports
+#### Calculate and Store reports
 Default reports are calculated for the last 6 games for all players from all teams. They are stored in the local file system under a directory named with starting and ending year of the season, e.g. `2024-2025`.
 ```
 node src/reports.ts
