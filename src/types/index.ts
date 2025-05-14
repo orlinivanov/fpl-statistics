@@ -14,5 +14,5 @@ export type FplTeam = z.infer<typeof teamSchema>;
 export type FplElement = z.infer<typeof elementSchema>;
 export type BootstrapResponse = z.infer<typeof bootStrapResponseSchema>;
 export type PlayerSummary = z.infer<typeof playerSummarySchema>;
-export type ActivePlayersMap = z.infer<typeof activePlayerSchema>;
+export type ActivePlayersMap = z.infer<typeof activePlayersMapSchema>;
 export type Team = z.infer<typeof teamSchema>;
