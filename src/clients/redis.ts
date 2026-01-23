@@ -1,9 +1,9 @@
-import { createClient } from 'redis';
+import { createClient } from "redis";
 
-console.log('Starting Redis client...');
+console.log("Starting Redis client...");
 const client = createClient();
-client.on('error', (err) => console.error('Redis Client Error', err));
+client.on("error", (err) => console.error("Redis Client Error", err));
 await client.connect();
-console.log('Redis client connected successfully!');
+console.log("Redis client connected successfully!");
 
 export default client;

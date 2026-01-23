@@ -1,12 +1,12 @@
-import process from 'node:process';
-import cacheClient from './clients/redis.ts';
+import process from "node:process";
+import cacheClient from "./clients/redis.ts";
 
-import fplService from './services/fpl-service.ts';
+import fplService from "./services/fpl-service.ts";
 
-process.on('exit', (code) => {
+process.on("exit", (code) => {
   console.log(`Process exited with code: ${code}`);
   if (code !== 0) {
-    console.error('An error occurred, exiting process...');
+    console.error("An error occurred, exiting process...");
   }
 });
 
@@ -14,14 +14,14 @@ const { elements, element_types, teams, events } =
   await fplService.getBootstrapData();
 
 const clientSetEventsResponse = await cacheClient.set(
-  'events',
-  JSON.stringify(events)
+  "events",
+  JSON.stringify(events),
 );
 console.log(`Cached data for events with response ${clientSetEventsResponse}`);
 
 const clientSetTeamsResponse = await cacheClient.set(
-  'teams',
-  JSON.stringify(teams)
+  "teams",
+  JSON.stringify(teams),
 );
 console.log(`Cached data for teams with response ${clientSetTeamsResponse}`);
 
@@ -42,11 +42,11 @@ const activePlayers = playersWithMinutes.map((player) => {
 });
 
 const clientSetActivePlayersResponse = await cacheClient.set(
-  'active_players',
-  JSON.stringify(activePlayers)
+  "active_players",
+  JSON.stringify(activePlayers),
 );
 console.log(
-  `Cached data for active players with response ${clientSetActivePlayersResponse}`
+  `Cached data for active players with response ${clientSetActivePlayersResponse}`,
 );
 
 const activePlayersMap = playersWithMinutes.reduce((acc, curr) => {
@@ -58,10 +58,10 @@ const activePlayersMap = playersWithMinutes.reduce((acc, curr) => {
       total_points,
       position: element_types
         .filter(({ id }) => id === element_type)
-        .reduce((_acc, { singular_name_short }) => singular_name_short, ''),
+        .reduce((_acc, { singular_name_short }) => singular_name_short, ""),
       team: teams
         .filter(({ id }) => id === team)
-        .reduce((_acc, { short_name }) => short_name, ''),
+        .reduce((_acc, { short_name }) => short_name, ""),
     };
   }
 
@@ -69,18 +69,18 @@ const activePlayersMap = playersWithMinutes.reduce((acc, curr) => {
 }, {});
 
 const clientSetActivePlayerResponse = await cacheClient.set(
-  'active_players_map',
-  JSON.stringify(activePlayersMap)
+  "active_players_map",
+  JSON.stringify(activePlayersMap),
 );
 console.log(
-  `Cached data for active players with response ${clientSetActivePlayerResponse}`
+  `Cached data for active players with response ${clientSetActivePlayerResponse}`,
 );
 
 for (const i in playersWithMinutes) {
   const playerIndex = Number(i);
   const { id } = playersWithMinutes[playerIndex];
   console.log(
-    `Processing player ${playerIndex + 1} of ${playersWithMinutes.length}`
+    `Processing player ${playerIndex + 1} of ${playersWithMinutes.length}`,
   );
   const key = `player_${id}`;
   const cachedValue = await cacheClient.get(key);
@@ -89,10 +89,10 @@ for (const i in playersWithMinutes) {
     const playerData = await fplService.getPlayerData(id);
     const clientSetPlayerResponse = await cacheClient.set(
       key,
-      JSON.stringify(playerData)
+      JSON.stringify(playerData),
     );
     console.log(
-      `Cached data for player ${key} with response ${clientSetPlayerResponse}`
+      `Cached data for player ${key} with response ${clientSetPlayerResponse}`,
     );
   }
 }

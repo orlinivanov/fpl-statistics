@@ -1,15 +1,13 @@
-import process from 'node:process';
+import process from "node:process";
 import {
-  getActivePlayers,
   getActivePlayersMap,
   getEvents,
   getPlayerHistory,
   getTeams,
-} from './clients/cache.ts';
-import type { ActivePlayersMap } from './types/index.ts';
-import { filterByTeam } from './lib/index.ts';
-import { writeFile } from 'node:fs/promises';
-import dayjs from 'dayjs';
+} from "./clients/cache.ts";
+import type { ActivePlayersMap } from "./types/index.ts";
+import { filterByTeam, getSeasonLabel } from "./lib/index.ts";
+import { writeFile } from "node:fs/promises";
 
 const [_0, _1, ...params] = process.argv;
 
@@ -29,7 +27,7 @@ for (const key of Object.keys(activePlayersMap)) {
     .slice(0, lastXGames)
     .map((event) => {
       const opponent_team_name = teams.find(
-        ({ id }) => event.opponent_team === id
+        ({ id }) => event.opponent_team === id,
       ).short_name;
       return { ...event, opponent_team_name };
     });
@@ -63,6 +61,10 @@ for (const key of Object.keys(activePlayersMap)) {
       return acc;
     }, 0)
     .toFixed(2);
+  const defCon = lastX.reduce((acc, { defensive_contribution }) => {
+    acc = acc + +defensive_contribution;
+    return acc;
+  }, 0);
   const starts = lastX
     .reduce((acc, { starts }) => {
       acc = acc + +starts;
@@ -70,54 +72,68 @@ for (const key of Object.keys(activePlayersMap)) {
     }, 0)
     .toFixed(2);
 
-  activePlayersMap[key].starts = starts;
-  activePlayersMap[key].xG = xG;
-  activePlayersMap[key].xA = xA;
-  activePlayersMap[key].xGi = xGi;
-  activePlayersMap[key].xGc = xGc;
-  activePlayersMap[key].bps = bps;
+  activePlayersMap[key].starts = Number(starts);
+  activePlayersMap[key].xG = Number(xG);
+  activePlayersMap[key].xA = Number(xA);
+  activePlayersMap[key].xGi = Number(xGi);
+  activePlayersMap[key].xGc = Number(xGc);
+  activePlayersMap[key].bps = Number(bps);
+  activePlayersMap[key].defCon = Number(defCon);
 }
 
 const topFwdXGi = Object.keys(activePlayersMap)
   .map((key) => activePlayersMap[key])
   .filter(
-    ({ position, team }) => position === 'FWD' && filterByTeam(teamInput, team)
+    ({ position, team }) => position === "FWD" && filterByTeam(teamInput, team),
   )
   .sort(({ xGi: axGi }, { xGi: bxGi }) => bxGi - axGi);
 
 const topMidXGi = Object.keys(activePlayersMap)
   .map((key) => activePlayersMap[key])
   .filter(
-    ({ position, team }) => position === 'MID' && filterByTeam(teamInput, team)
+    ({ position, team }) => position === "MID" && filterByTeam(teamInput, team),
   )
   .sort(({ xGi: axGi }, { xGi: bxGi }) => bxGi - axGi);
+
+const topMidDefCon = Object.keys(activePlayersMap)
+  .map((key) => activePlayersMap[key])
+  .filter(
+    ({ position, team }) => position === "MID" && filterByTeam(teamInput, team),
+  )
+  .sort(({ defCon: aDefCon }, { defCon: bDefCon }) => bDefCon - aDefCon);
 
 const topDefXGi = Object.keys(activePlayersMap)
   .map((key) => activePlayersMap[key])
   .filter(
-    ({ position, team }) => position === 'DEF' && filterByTeam(teamInput, team)
+    ({ position, team }) => position === "DEF" && filterByTeam(teamInput, team),
   )
   .sort(({ xGi: axGi }, { xGi: bxGi }) => bxGi - axGi);
+
+const topDefDefCon = Object.keys(activePlayersMap)
+  .map((key) => activePlayersMap[key])
+  .filter(
+    ({ position, team }) => position === "DEF" && filterByTeam(teamInput, team),
+  )
+  .sort(({ defCon: aDefCon }, { defCon: bDefCon }) => bDefCon - aDefCon);
 
 const topDefXGc = Object.keys(activePlayersMap)
   .map((key) => activePlayersMap[key])
   .filter(
     ({ position, team, xGc, starts }) =>
-      position === 'DEF' &&
+      position === "DEF" &&
       filterByTeam(teamInput, team) &&
       +xGc !== 0 &&
-      starts > 1
+      starts > 1,
   )
   .sort(({ xGc: axGc }, { xGc: bxGc }) => axGc - bxGc);
 
 const events = await getEvents();
 const gwNumber = events.find(({ is_next }) => is_next).id;
-const seasonStartYear = dayjs(events[0].deadline_time).year();
-const seasonEndYear = dayjs(events[events.length - 1].deadline_time).year();
+const seasonLabel = getSeasonLabel(events);
 
 await writeFile(
-  `./${seasonStartYear}-${seasonEndYear}/gw_${gwNumber}_last_${lastXGames}${
-    teamInput ? `_${teamInput}` : ''
+  `./${seasonLabel}/gw_${gwNumber}_last_${lastXGames}${
+    teamInput ? `_${teamInput}` : ""
   }.json`,
   JSON.stringify({
     title: `Player stats for their own last ${lastXGames} games`,
@@ -125,9 +141,11 @@ await writeFile(
     active_players: Object.keys(activePlayersMap).length,
     top_fwd_xgi: topFwdXGi.slice(0, 20),
     top_mid_xgi: topMidXGi.slice(0, 20),
+    top_mid_defcon: topMidDefCon.slice(0, 20),
     top_def_xgc: topDefXGc.slice(0, 20),
     top_def_xgi: topDefXGi.slice(0, 20),
-  })
+    top_def_defcon: topDefDefCon.slice(0, 20),
+  }),
 );
 
 process.exit(0);

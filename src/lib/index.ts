@@ -1,9 +1,15 @@
-import type { FplElement, FplElementType, FplTeam } from '../types/index.ts';
+import dayjs from "dayjs";
+import type {
+  Event,
+  FplElement,
+  FplElementType,
+  FplTeam,
+} from "../types/index.ts";
 
 export function getPlayersWithMinutes(
   elements: FplElement[],
   elementTypes: FplElementType[],
-  teams: FplTeam[]
+  teams: FplTeam[],
 ) {
   const playersWithMinutes = elements.filter(({ minutes }) => {
     return minutes > 0;
@@ -18,10 +24,10 @@ export function getPlayersWithMinutes(
         total_points,
         position: elementTypes
           .filter(({ id }) => id === element_type)
-          .reduce((_acc, { singular_name_short }) => singular_name_short, ''),
+          .reduce((_acc, { singular_name_short }) => singular_name_short, ""),
         team: teams
           .filter(({ id }) => id === team)
-          .reduce((_acc, { short_name }) => short_name, ''),
+          .reduce((_acc, { short_name }) => short_name, ""),
       };
     }
 
@@ -37,4 +43,11 @@ export function filterByTeam(teamInput: string, teamName: string) {
   }
 
   return teamInput === teamName;
+}
+
+export function getSeasonLabel(events: Event[]) {
+  const seasonStartYear = dayjs(events[0].deadline_time).year();
+  const seasonEndYear = dayjs(events[events.length - 1].deadline_time).year();
+
+  return `${seasonStartYear}-${seasonEndYear}`;
 }

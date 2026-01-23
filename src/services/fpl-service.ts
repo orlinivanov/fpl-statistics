@@ -1,20 +1,24 @@
-import axios from 'axios';
+import axios from "axios";
 
-import type { BootstrapResponse, PlayerSummary } from '../types/index.ts';
+import type { BootstrapResponse, PlayerSummary } from "../types/index.ts";
 
 const instance = axios.create({
-  baseURL: 'https://fantasy.premierleague.com',
+  baseURL: "https://fantasy.premierleague.com",
 });
 
 async function getBootstrapData() {
   const { data } = await instance.get<BootstrapResponse>(
-    '/api/bootstrap-static/'
+    "/api/bootstrap-static/",
   );
+
   return data;
 }
 
 async function getPlayerData(id: number) {
-  const { data } = await instance.get<PlayerSummary>(`/api/element-summary/${id}/`);
+  const { data } = await instance.get<PlayerSummary>(
+    `/api/element-summary/${id}/`,
+  );
+
   return data;
 }
 
