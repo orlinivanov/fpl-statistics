@@ -1,4 +1,4 @@
-import { z } from 'zod';
+import { z } from "zod";
 
 export const eventSchema = z.object({
   id: z.number(),
@@ -52,6 +52,7 @@ export const historyItemSchema = z.object({
   expected_goals_conceded: z.coerce.number(),
   bps: z.coerce.number(),
   starts: z.coerce.number(),
+  defensive_contribution: z.coerce.number(),
 });
 
 export const playerSummarySchema = z.object({
@@ -70,6 +71,7 @@ export const activePlayerSchema = z.object({
   xA: z.number().optional(),
   xGi: z.number().optional(),
   xGc: z.number().optional(),
+  defCon: z.number().optional(),
   history: z.array(historyItemSchema).optional(),
 });
 

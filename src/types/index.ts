@@ -1,13 +1,14 @@
-import { z } from 'zod';
+import { z } from "zod";
 
 import {
-  activePlayerSchema,
+  activePlayersMapSchema,
   bootStrapResponseSchema,
   elementSchema,
   elementTypeSchema,
+  eventSchema,
   playerSummarySchema,
   teamSchema,
-} from './schemas.ts';
+} from "./schemas.ts";
 
 export type FplElementType = z.infer<typeof elementTypeSchema>;
 export type FplTeam = z.infer<typeof teamSchema>;
@@ -16,3 +17,4 @@ export type BootstrapResponse = z.infer<typeof bootStrapResponseSchema>;
 export type PlayerSummary = z.infer<typeof playerSummarySchema>;
 export type ActivePlayersMap = z.infer<typeof activePlayersMapSchema>;
 export type Team = z.infer<typeof teamSchema>;
+export type Event = z.infer<typeof eventSchema>;
