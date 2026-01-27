@@ -15,6 +15,10 @@ const [teamInput, lastXInput, ..._rest] = params;
 
 const lastXGames = Number(lastXInput) || 6;
 
+console.log(
+  `Building reports for last ${lastXGames} gameweeks${teamInput ? ` team: ${teamInput}` : ""}`,
+);
+
 const teams = await getTeams();
 const activePlayersCacheValue = await getActivePlayersMap();
 const activePlayersMap: ActivePlayersMap = { ...activePlayersCacheValue };
@@ -130,11 +134,14 @@ const topDefXGc = Object.keys(activePlayersMap)
 const events = await getEvents();
 const gwNumber = events.find(({ is_next }) => is_next).id;
 const seasonLabel = getSeasonLabel(events);
+const fileName = `./${seasonLabel}/gw_${gwNumber}_last_${lastXGames}${
+  teamInput ? `_${teamInput}` : ""
+}.json`;
+
+console.log(`Writing file: ${fileName}`);
 
 await writeFile(
-  `./${seasonLabel}/gw_${gwNumber}_last_${lastXGames}${
-    teamInput ? `_${teamInput}` : ""
-  }.json`,
+  fileName,
   JSON.stringify({
     title: `Player stats for their own last ${lastXGames} games`,
     gw: gwNumber,
